@@ -1,0 +1,96 @@
+{
+  "isRoot": true,
+  "endpointType": 0,
+  "minimal": false,
+  "prefix": null,
+  "idFormat": 0,
+  "idDotNetType": 0,
+  "isMicroserviceArchitecture": false,
+  "projects": [],
+  "rootDirectory": "C:\\projects\\MyBank",
+  "solutionName": "MyBank",
+  "solutionFileName": "MyBank.sln",
+  "apiFullPath": "C:\\projects\\MyBank\\src\\MyBank.Api\\MyBank.Api.csproj",
+  "rootNamespace": "MyBank",
+  "domainNamespace": "MyBank.Core",
+  "applicationNamespace": "MyBank.Core",
+  "infrastructureNamespace": "MyBank.Infrastructure",
+  "apiNamespace": "MyBank.Api",
+  "domainDirectory": "C:\\projects\\MyBank\\src\\MyBank.SharedKernel",
+  "applicationDirectory": "C:\\projects\\MyBank\\src\\MyBank.Core",
+  "infrastructureDirectory": "C:\\projects\\MyBank\\src\\MyBank.Infrastructure",
+  "apiDirectory": "C:\\projects\\MyBank\\src\\MyBank.Api",
+  "unitTestsDirectory": "C:\\projects\\MyBank\\tests\\MyBank.UnitTests",
+  "testingDirectory": "C:\\projects\\MyBank\\tests\\MyBank.Testing",
+  "appDirectories": [],
+  "buildingBlocksCoreNamespace": "BuildingBlocks.Core",
+  "buildingBlocksEventStoreNamespace": "BuildingBlocks.EventStore",
+  "sourceFolder": "src",
+  "testFolder": "tests",
+  "dbContextName": "MyBankDbContext",
+  "port": 5000,
+  "sslPort": 5001,
+  "plugins": null,
+  "entities": [],
+  "resources": [
+    {
+      "properties": [
+        {
+          "accessModifier": "public",
+          "type": "Guid",
+          "accessors": [
+            {
+              "accessModifier": null,
+              "type": 0
+            },
+            {
+              "accessModifier": "private",
+              "type": 1
+            }
+          ],
+          "name": "TransactionId",
+          "required": true,
+          "key": true
+        },
+        {
+          "accessModifier": "public",
+          "type": "string",
+          "accessors": [
+            {
+              "accessModifier": null,
+              "type": 0
+            },
+            {
+              "accessModifier": "private",
+              "type": 1
+            }
+          ],
+          "name": "Name",
+          "required": true,
+          "key": false
+        },
+        {
+          "accessModifier": "public",
+          "type": "float",
+          "accessors": [
+            {
+              "accessModifier": null,
+              "type": 0
+            },
+            {
+              "accessModifier": "private",
+              "type": 1
+            }
+          ],
+          "name": "Amount",
+          "required": true,
+          "key": false
+        }
+      ],
+      "entities": [],
+      "name": "Transaction",
+      "idPropertyName": "TransactionId",
+      "idPropertyType": "Guid"
+    }
+  ]
+}
